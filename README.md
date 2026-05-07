@@ -11,6 +11,14 @@ This project implements a Bayesian Optimization framework for black-box function
 ### BBO Capstone Presentation
 - [View BBO Capstone Presentation](./docs/BBO_capstone_project_presentation.pdf)
 
+### Non-Technical Summary
+
+This project explores how artificial intelligence can efficiently solve complex problems when the correct answer is unknown. Using optimisation techniques inspired by machine learning, the system learned to identify the best input combinations for eight hidden “black-box” functions while working with very limited feedback.  
+
+Throughout 13 iterative rounds, the project combined statistical models, clustering, neural networks and pattern analysis to balance exploration of new possibilities with refinement of promising solutions. Over time, the system became more accurate and efficient, progressively identifying stable optimal regions.  
+
+Beyond achieving competitive rankings, the project demonstrates how AI can support decision-making under uncertainty — a challenge common in areas such as engineering, finance, scientific experimentation and real-world machine learning systems.
+
 ## Section 1: Project Overview 
 
 This GitHub repository is part of the documentation for the Bayesian Black-Box Optimization (BBO) capstone project, designed to replicate the NeurIPS 2020 competition. The competition challenges participants to solve optimization problems, commonly known as Black-Box functions, that mirror real-world scenarios in which the underlying process is unknown.
