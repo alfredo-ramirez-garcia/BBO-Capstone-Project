@@ -8,6 +8,9 @@ This project implements a Bayesian Optimization framework for black-box function
 ### Model Card
 - [View Model Card](./docs/Model_Card.md)
 
+### BBO Capstone Presentation
+- [View BBO Capstone Presentation](./docs/BBO_capstone_project_presentation.pdf)
+
 ## Section 1: Project Overview 
 
 This GitHub repository is part of the documentation for the Bayesian Black-Box Optimization (BBO) capstone project, designed to replicate the NeurIPS 2020 competition. The competition challenges participants to solve optimization problems, commonly known as Black-Box functions, that mirror real-world scenarios in which the underlying process is unknown.
