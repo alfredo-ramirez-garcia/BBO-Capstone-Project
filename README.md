@@ -13,11 +13,11 @@ This project implements a Bayesian Optimization framework for black-box function
 
 ### Non-Technical Summary
 
-This project explores how artificial intelligence can efficiently solve complex problems when the correct answer is unknown. Using optimisation techniques inspired by machine learning, the system learned to identify the best input combinations for eight hidden “black-box” functions while working with very limited feedback.  
+This project explores how Bayesian Optimisaton can solve complex problems when the functional form of a function is unknown. Using optimisation techniques, the system learned to identify the best input combinations for eight hidden “black-box” functions while working with very limited feedback.  
 
-Throughout 13 iterative rounds, the project combined statistical models, clustering, neural networks and pattern analysis to balance exploration of new possibilities with refinement of promising solutions. Over time, the system became more accurate and efficient, progressively identifying stable optimal regions.  
+Throughout 13 iterative rounds, the project combined statistical models, clustering, neural networks and pattern analysis to balance exploration and exploitation. Over time, the system became more accurate and efficient, progressively identifying stable optimal regions.  
 
-Beyond achieving competitive rankings, the project demonstrates how AI can support decision-making under uncertainty — a challenge common in areas such as engineering, finance, scientific experimentation and real-world machine learning systems.
+Beyond achieving competitive rankings, the project demonstrates how optimisation an ML tools can support decision-making under uncertainty — a challenge common in areas such as engineering, finance, scientific experimentation and real-world machine learning systems.
 
 ## Section 1: Project Overview 
 
