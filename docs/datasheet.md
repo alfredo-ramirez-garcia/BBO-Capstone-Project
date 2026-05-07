@@ -24,12 +24,13 @@ The dataset has no missing data. However, the observations have a skewed distrib
 
 The initial data were distributed at the start of the challenge. Data with weekly increments were generated via an iterative Bayesian optimization process, where each new observation corresponds to an evaluation of the function at a given point.
 
-### Strategy used: 
+### Optimisation Strategy: 
 
-- Gaussian Processes (GP) as a surrogate model 
-- Acquisition functions (EI, UCB) 
-- Heteroscedastic Evolutionary Bayesian Optimization (HEBO) 
-- Complement with classification (SVM, MLP) and clustering 
+The optimization strategy evolved from an exploratory approach focused on the results obtained by the optimization models (GP+EI, GP+UCB) to a much more structural approach to the function. 
+
+In the first iterations, exploration was prioritized using only Bayesian Optimization (BO) to identify regions where the function's maxima could be located. However, with each iteration, more information was obtained, and patterns began to emerge in the results, mainly compact clusters of maximum values and clear separations between high- and low-value regions. Therefore, additional layers of analysis, such as clustering, SVM, and Neural Networks (NN), were used to gain a much deeper structural understanding of the functions in subsequent iterations. The changes described were primarily driven by trends in the data, which, although captured by the BO models, could be better represented by the complementary models. 
+
+All this integration of models in an iterative system allowed the standardization of the decision-making process guided by clear heuristics, where exploitation will be carried out as long as there is evidence that shows that improvements in the maximum value are achieved within the cluster or that there are possible improvements. Exploration will be applied when a promising region has not been located or when marginal improvements are obtained within the cluster.
 
 ### Time frame: 
 
