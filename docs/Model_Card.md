@@ -115,7 +115,7 @@ During the final weeks, my results improved across several functions, particular
 
 ## 8. Limitations
 
-
+One of the main limitations of the optimization strategy was its tendency to favor local exploitation once promising regions were identified, thereby increasing the risk of prematurely focusing on local optima and underexploring other potentially better regions of the search space. The evaluation budget also constrained the strategy, with only one query per function per iteration; each decision carried a high opportunity cost, restricting simultaneous global exploration and local refinement. Finally, some decisions relied on reasoning and empirical interpretation, which reduced full automation and may limit reproducibility across different users or optimization contexts.
 
 ## 9. Trade-offs
 
